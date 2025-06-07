@@ -24,7 +24,9 @@
 > `$ pip install -r requirements.txt`
 
 **Запуск автотестов и создание HTML-отчета о покрытии**
-    pytest --alluredir=./allure_results tests/
+    
+$ pytest --alluredir=./allure_results tests/
+$ pytest --cov=praktikum --cov-report=html`
 
->  `$ pytest --cov=praktikum --cov-report=html`
+Яндекс Практикум 2025, планета Земля
 
